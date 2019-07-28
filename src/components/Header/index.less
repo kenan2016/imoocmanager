@@ -30,7 +30,12 @@
         .breadcrumb-title{
             text-align: center;
             font-size: @fontC;
-            &:after{
+            &:after{// & 表示在title下面追加一个伪类样式// 等于breadcrumb-title:after
+                // 没有&表示 breadcrumb-title .after
+
+                // 我们追加这个伪类。作用就是用来表示箭头所在的占位，
+                // 这种箭头一般是做成绝对定位，一般绝对定位是相对于向上找到的第一个相对定位的父级元素
+                // 因此这里我们设置父级元素为相对定位，这个伪类元素为绝对定位
                 position: absolute;
                 content: '';
                 left:73px;

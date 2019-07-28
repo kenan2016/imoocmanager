@@ -45,7 +45,7 @@ export default class Header extends React.Component{
                 <Row className="header-top">
                     <Col span={4} className="logo">
                         <img src="/logo-ant.svg" alt=""/>
-                            <span>IMooc 通用管理系统</span>
+                            <span>通用管理系统</span>
                     </Col>
                     <Col span={20}>
                         <span>欢迎，{this.state.userName}</span>

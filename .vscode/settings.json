@@ -1,0 +1,6 @@
+{
+    "emmet.triggerExpansionOnTab": true
+    // "workbench.editor.closeEmptyGroups": false,
+    // "emmet.triggerExpansionOnTab": true,
+    // "files.associations": {"*.js": "html"}
+}
